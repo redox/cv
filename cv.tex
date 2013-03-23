@@ -7,6 +7,7 @@
 \usepackage{geometry}
 \usepackage{url}
 \usepackage{graphicx}
+\usepackage{hyperref}
 
 \geometry{hmargin=2cm, vmargin=2cm}
 
@@ -15,11 +16,13 @@
 \leftheader{{\Huge{}\bfseries\color{namecolor}Sylvain Utard}\\~\\
 7 rue Geoffroy-Marie 75009 Paris\\
 \raisebox{-0.9mm}{\includegraphics[width=4mm]{phone.png}} 06.15.14.27.47\\
-\raisebox{-0.9mm}{\includegraphics[width=4mm]{enveloppe.png}} \url{sylvain.utard@gmail.com}}
+\raisebox{-0.9mm}{\includegraphics[width=4mm]{enveloppe.png}} \href{mailto:sylvain.utard@gmail.com}{\url sylvain.utard@gmail.com}}
 
 \rightheader{28 ans\\
-\url{http://sylvain.utard.info}\\
-\raisebox{-0.9mm}{\includegraphics[width=1.4cm]{linkedin.jpg}} \url{sylvainutard}}
+\href{http://sylvain.utard.info}{\url http://sylvain.utard.info}\\
+\raisebox{-0.9mm}{\includegraphics[width=1.4cm]{linkedin.jpg}} \href{http://linkedin.com/in/sylvainutard}{\url sylvainutard}\\
+\raisebox{-2mm}{\includegraphics[width=1.4cm]{github.png}} \href{http://github.com/redox}{\url redox}
+}
 
 \photo{photo.jpeg}
 
