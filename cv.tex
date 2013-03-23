@@ -1,0 +1,50 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[french]{xcurve}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{url}
+\usepackage{graphicx}
+
+\geometry{hmargin=2cm, vmargin=2cm}
+
+\definecolor{namecolor}{rgb}{0.211,0.373,0.569}
+
+\leftheader{{\Huge{}\bfseries\color{namecolor}Sylvain Utard}\\~\\
+7 rue Geoffroy-Marie 75009 Paris\\
+\raisebox{-0.9mm}{\includegraphics[width=4mm]{phone.png}} 06.15.14.27.47\\
+\raisebox{-0.9mm}{\includegraphics[width=4mm]{enveloppe.png}} \url{sylvain.utard@gmail.com}}
+
+\rightheader{28 ans\\
+\url{http://sylvain.utard.info}\\
+\raisebox{-0.9mm}{\includegraphics[width=1.4cm]{linkedin.jpg}} \url{sylvainutard}}
+
+\photo{photo.jpeg}
+
+\title{\textsc{Senior Software Engineer}}
+\subtitle{Tech lead/manager - Big Data, C++, Java}
+
+\usepackage{pifont}
+\prefix{{\tiny\ding{52}}}
+
+\begin{document}
+
+	\makeheaders[t]
+	
+	\vspace{0pt}
+	
+	\maketitle
+	
+	\vspace{15pt}
+
+	\rubricalignment{l}
+	
+	\makerubric{activites_realisations}
+	\clearpage
+	\makerubric{competences_techniques}
+	\makerubric{formation}
+	\makerubric{langues_divers}
+
+\end{document}
